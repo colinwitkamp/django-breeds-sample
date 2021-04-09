@@ -49,6 +49,7 @@ DJANGO_APPS = [
     "django.contrib.sitemaps",
     "django.contrib.admin",
     "authentication",
+    "breeds"
 ]
 
 THIRDPARTY_APPS = [

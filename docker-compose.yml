@@ -16,6 +16,8 @@ services:
       - redis:cache
     volumes:
       - ./src:/www:cached
+      - ./data/media:/media
+ 
     logging:
       options:
         max-size: "100k"
