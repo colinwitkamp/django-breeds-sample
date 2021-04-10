@@ -16,7 +16,7 @@ services:
       - redis:cache
     volumes:
       - ./src:/www:cached
-      - ./data/media:/media
+      - ./data/media:/www/django/media
  
     logging:
       options:
